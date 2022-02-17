@@ -1,0 +1,13 @@
+C:\Users\DELL\Desktop\Projetos\ApiControleProduto\ControleProdutoApi\ControleProduto.DAL\bin\Debug\netcoreapp3.1\ControleProduto.DAL.deps.json
+C:\Users\DELL\Desktop\Projetos\ApiControleProduto\ControleProdutoApi\ControleProduto.DAL\bin\Debug\netcoreapp3.1\ControleProduto.DAL.dll
+C:\Users\DELL\Desktop\Projetos\ApiControleProduto\ControleProdutoApi\ControleProduto.DAL\bin\Debug\netcoreapp3.1\ControleProduto.DAL.pdb
+C:\Users\DELL\Desktop\Projetos\ApiControleProduto\ControleProdutoApi\ControleProduto.DAL\bin\Debug\netcoreapp3.1\ControleProduto.BLL.dll
+C:\Users\DELL\Desktop\Projetos\ApiControleProduto\ControleProdutoApi\ControleProduto.DAL\bin\Debug\netcoreapp3.1\ControleProduto.BLL.pdb
+C:\Users\DELL\Desktop\Projetos\ApiControleProduto\ControleProdutoApi\ControleProduto.DAL\obj\Debug\netcoreapp3.1\ControleProduto.DAL.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\Projetos\ApiControleProduto\ControleProdutoApi\ControleProduto.DAL\obj\Debug\netcoreapp3.1\ControleProduto.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\Projetos\ApiControleProduto\ControleProdutoApi\ControleProduto.DAL\obj\Debug\netcoreapp3.1\ControleProduto.DAL.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\Projetos\ApiControleProduto\ControleProdutoApi\ControleProduto.DAL\obj\Debug\netcoreapp3.1\ControleProduto.DAL.AssemblyInfo.cs
+C:\Users\DELL\Desktop\Projetos\ApiControleProduto\ControleProdutoApi\ControleProduto.DAL\obj\Debug\netcoreapp3.1\ControleProduto.DAL.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\Projetos\ApiControleProduto\ControleProdutoApi\ControleProduto.DAL\obj\Debug\netcoreapp3.1\ControleProduto.DAL.csproj.CopyComplete
+C:\Users\DELL\Desktop\Projetos\ApiControleProduto\ControleProdutoApi\ControleProduto.DAL\obj\Debug\netcoreapp3.1\ControleProduto.DAL.dll
+C:\Users\DELL\Desktop\Projetos\ApiControleProduto\ControleProdutoApi\ControleProduto.DAL\obj\Debug\netcoreapp3.1\ControleProduto.DAL.pdb

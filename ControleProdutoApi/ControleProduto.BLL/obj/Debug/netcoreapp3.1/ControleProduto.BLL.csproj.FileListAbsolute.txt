@@ -1,0 +1,10 @@
+C:\Users\DELL\Desktop\Projetos\ApiControleProduto\ControleProdutoApi\ControleProduto.BLL\bin\Debug\netcoreapp3.1\ControleProduto.BLL.deps.json
+C:\Users\DELL\Desktop\Projetos\ApiControleProduto\ControleProdutoApi\ControleProduto.BLL\bin\Debug\netcoreapp3.1\ControleProduto.BLL.dll
+C:\Users\DELL\Desktop\Projetos\ApiControleProduto\ControleProdutoApi\ControleProduto.BLL\bin\Debug\netcoreapp3.1\ControleProduto.BLL.pdb
+C:\Users\DELL\Desktop\Projetos\ApiControleProduto\ControleProdutoApi\ControleProduto.BLL\obj\Debug\netcoreapp3.1\ControleProduto.BLL.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\Projetos\ApiControleProduto\ControleProdutoApi\ControleProduto.BLL\obj\Debug\netcoreapp3.1\ControleProduto.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\Projetos\ApiControleProduto\ControleProdutoApi\ControleProduto.BLL\obj\Debug\netcoreapp3.1\ControleProduto.BLL.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\Projetos\ApiControleProduto\ControleProdutoApi\ControleProduto.BLL\obj\Debug\netcoreapp3.1\ControleProduto.BLL.AssemblyInfo.cs
+C:\Users\DELL\Desktop\Projetos\ApiControleProduto\ControleProdutoApi\ControleProduto.BLL\obj\Debug\netcoreapp3.1\ControleProduto.BLL.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\Projetos\ApiControleProduto\ControleProdutoApi\ControleProduto.BLL\obj\Debug\netcoreapp3.1\ControleProduto.BLL.dll
+C:\Users\DELL\Desktop\Projetos\ApiControleProduto\ControleProdutoApi\ControleProduto.BLL\obj\Debug\netcoreapp3.1\ControleProduto.BLL.pdb

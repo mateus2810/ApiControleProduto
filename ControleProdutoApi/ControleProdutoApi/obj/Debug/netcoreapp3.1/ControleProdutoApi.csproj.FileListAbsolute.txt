@@ -43,3 +43,7 @@ C:\Users\DELL\Desktop\Projetos\ApiControleProduto\ControleProdutoApi\ControlePro
 C:\Users\DELL\Desktop\Projetos\ApiControleProduto\ControleProdutoApi\ControleProdutoApi\obj\Debug\netcoreapp3.1\ControleProdutoApi.dll
 C:\Users\DELL\Desktop\Projetos\ApiControleProduto\ControleProdutoApi\ControleProdutoApi\obj\Debug\netcoreapp3.1\ControleProdutoApi.pdb
 C:\Users\DELL\Desktop\Projetos\ApiControleProduto\ControleProdutoApi\ControleProdutoApi\obj\Debug\netcoreapp3.1\ControleProdutoApi.genruntimeconfig.cache
+C:\Users\DELL\Desktop\Projetos\ApiControleProduto\ControleProdutoApi\ControleProdutoApi\bin\Debug\netcoreapp3.1\ControleProduto.BLL.dll
+C:\Users\DELL\Desktop\Projetos\ApiControleProduto\ControleProdutoApi\ControleProdutoApi\bin\Debug\netcoreapp3.1\ControleProduto.DAL.dll
+C:\Users\DELL\Desktop\Projetos\ApiControleProduto\ControleProdutoApi\ControleProdutoApi\bin\Debug\netcoreapp3.1\ControleProduto.BLL.pdb
+C:\Users\DELL\Desktop\Projetos\ApiControleProduto\ControleProdutoApi\ControleProdutoApi\bin\Debug\netcoreapp3.1\ControleProduto.DAL.pdb
