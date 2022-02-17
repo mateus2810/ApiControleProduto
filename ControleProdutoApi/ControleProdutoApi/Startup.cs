@@ -8,6 +8,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -25,7 +26,23 @@ namespace ControleProdutoApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
+            services.AddCors();
+
+            services.AddSpaStaticFiles(diretorio =>
+            {
+                diretorio.RootPath = "ControleProduto-UI";
+            });
+
+            services.AddControllers()
+                .AddJsonOptions(opcoes =>
+                {
+                    opcoes.JsonSerializerOptions.IgnoreNullValues = true;
+                })
+                .AddNewtonsoftJson(opcoes =>
+                {
+                    opcoes.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
+                });
+                
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -36,15 +53,32 @@ namespace ControleProdutoApi
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseCors(opcoes => opcoes.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+
             app.UseHttpsRedirection();
 
             app.UseRouting();
 
             app.UseAuthorization();
 
+            app.UseSpaStaticFiles();
+
+            app.UseSpaStaticFiles();
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+            });
+
+            app.UseSpa(spa =>
+            {
+                spa.Options.SourcePath = ConfigurationPath.Combine(Directory.GetCurrentDirectory(), "ControleProduto-UI");
+
+                if (env.IsDevelopment())
+                {
+                    spa.UseProxyToSpaDevelopmentServer($"http://localhost:4200/");
+                }
+
             });
         }
     }
