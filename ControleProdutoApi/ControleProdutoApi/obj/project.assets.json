@@ -287,6 +287,29 @@
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.Bson.dll": {}
         }
+      },
+      "ControleProduto.BLL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/ControleProduto.BLL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ControleProduto.BLL.dll": {}
+        }
+      },
+      "ControleProduto.DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "ControleProduto.BLL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ControleProduto.DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ControleProduto.DAL.dll": {}
+        }
       }
     }
   },
@@ -720,10 +743,22 @@
         "newtonsoft.json.bson.1.0.2.nupkg.sha512",
         "newtonsoft.json.bson.nuspec"
       ]
+    },
+    "ControleProduto.BLL/1.0.0": {
+      "type": "project",
+      "path": "../ControleProduto.BLL/ControleProduto.BLL.csproj",
+      "msbuildProject": "../ControleProduto.BLL/ControleProduto.BLL.csproj"
+    },
+    "ControleProduto.DAL/1.0.0": {
+      "type": "project",
+      "path": "../ControleProduto.DAL/ControleProduto.DAL.csproj",
+      "msbuildProject": "../ControleProduto.DAL/ControleProduto.DAL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "ControleProduto.BLL >= 1.0.0",
+      "ControleProduto.DAL >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 3.1.7",
       "Microsoft.AspNetCore.SpaServices.Extensions >= 3.1.7"
     ]
@@ -760,7 +795,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\DELL\\Desktop\\Projetos\\ApiControleProduto\\ControleProdutoApi\\ControleProduto.BLL\\ControleProduto.BLL.csproj": {
+              "projectPath": "C:\\Users\\DELL\\Desktop\\Projetos\\ApiControleProduto\\ControleProdutoApi\\ControleProduto.BLL\\ControleProduto.BLL.csproj"
+            },
+            "C:\\Users\\DELL\\Desktop\\Projetos\\ApiControleProduto\\ControleProdutoApi\\ControleProduto.DAL\\ControleProduto.DAL.csproj": {
+              "projectPath": "C:\\Users\\DELL\\Desktop\\Projetos\\ApiControleProduto\\ControleProdutoApi\\ControleProduto.DAL\\ControleProduto.DAL.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
